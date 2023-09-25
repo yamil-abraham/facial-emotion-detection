@@ -92,6 +92,18 @@ __How the Model Works?__
 **4. Testing:** The trained model can also be used to classify emotions in your own images. Simply provide the file paths to the test images, and the model will predict the corresponding emotions.
 
 <p align="center">
+  ## Successful Classification 🤪
+</p>
+
+<p align="center">
+  <img src="images/prediction2.png">
+</p>
+
+<p align="center">
+  ## Incorrect Classification 😥
+</p>
+
+<p align="center">
   <img src="images/prediction1.png">
 </p>
 
