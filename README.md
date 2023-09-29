@@ -77,6 +77,11 @@ __How the Model Works?__
 
 **3. Model Evaluation:** After training, the model's performance is evaluated on a separate test dataset. The accuracy metric measures how well the model classifies emotions, with a final accuracy of approximately 65.63%.
 
+  **Model Evaluation n2:** Due to the plots look pretty well I decided to see how the model behaves and retrain for 100 epochs and  what is a suitable number before it starts to "worsen" in the predictions. The new accuracy was 68.75% which is an improvement over the previous 50 epoch model, but also not much of an improvement. Furthermore, we can see that around the 80's we find that the training and validation curves start to touch and then the validation curve starts to be above.
+When the training and validation curves touch and then the validation curve starts to be above the training curve, this suggests that the model is experiencing **overfitting**.
+
+**Potential solution:** To address this problem, techniques such as regularisation, reducing the complexity of the model or collecting more training data if possible can be used. The goal is for the model to generalise well, i.e. to perform well on both training data and unseen data such as validation or test data.
+
 <p align="center">
   <img src="images/training and validation loss.png">
 </p>
