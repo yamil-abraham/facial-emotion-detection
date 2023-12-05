@@ -1,4 +1,4 @@
-## Emotion Detection with Facial Expression Recognition
+## Emotion Detection with Facial Expression Recognitionn
 
 This project focuses on building a deep learning model for facial emotion detection using the FER-2013 dataset. The model classifies facial expressions into seven different emotions: Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise.
 
